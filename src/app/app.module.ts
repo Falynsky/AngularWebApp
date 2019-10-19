@@ -7,13 +7,15 @@ import { LoginComponent } from './login/login.component';
 import {FormsModule} from '@angular/forms';
 import { ErrorComponent } from './error/error.component';
 import { MainComponent } from './main/main.component';
+import { ListTodosComponent } from './list-todos/list-todos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     ErrorComponent,
-    MainComponent
+    MainComponent,
+    ListTodosComponent
   ],
   imports: [
     BrowserModule,
